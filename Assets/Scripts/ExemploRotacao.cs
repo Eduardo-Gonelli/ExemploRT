@@ -23,6 +23,8 @@ public class ExemploRotacao : MonoBehaviour
             new Vector4(0, 0, 0, 1)
             );
 
+        
+
         // aplica a matriz de rotacao a posicao e rotacao do objeto
         objeto.transform.position = matriz_de_rotacao.MultiplyPoint3x4(objeto.transform.position);
         objeto.transform.rotation = matriz_de_rotacao.rotation;        
