@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ExemploRotacao : MonoBehaviour
+public class Rotacao : MonoBehaviour
 {    
     public void AplicarRotacao(Vector3 eixo, float angulo, GameObject objeto)
     {                

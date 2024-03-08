@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TranslacaoExemplo : MonoBehaviour
+public class Translacao : MonoBehaviour
 {
     public void AplicarTranslacao(Vector3 eixo, float quantidade, GameObject objeto)
     {
