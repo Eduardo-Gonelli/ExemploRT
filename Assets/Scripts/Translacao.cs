@@ -4,7 +4,7 @@ public class Translacao : MonoBehaviour
 {
     public void AplicarTranslacao(Vector3 eixo, float quantidade, GameObject objeto)
     {
-        // cria uma matria de translacao 4x4
+        // cria uma matriz de translacao 4x4
         Matrix4x4 matriz_de_translacao = Matrix4x4.Translate(eixo * quantidade);
 
         // converte a posicao atual do objeto para coordenadas homogeneas

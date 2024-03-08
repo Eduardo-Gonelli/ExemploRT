@@ -15,7 +15,8 @@ public class Rotacao : MonoBehaviour
         float y = eixo_normalizado.y;
         float z = eixo_normalizado.z;
 
-        // cria a matriz de rotacao
+        // cria a matriz de rotacao de forma semelhante
+        // à fórmula de rotação proposta por Olinde Rodrigues
         Matrix4x4 matriz_de_rotacao = new Matrix4x4(
             new Vector4(cosTheta + um_menos_cos_theta * x * x, um_menos_cos_theta * x * y + sinTheta * z, um_menos_cos_theta * x * z - sinTheta * y, 0),
             new Vector4(um_menos_cos_theta * x * y - sinTheta * z, cosTheta + um_menos_cos_theta * y * y, um_menos_cos_theta * y * z + sinTheta * x, 0),
